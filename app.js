@@ -37,7 +37,7 @@ router.route('/cookies').get(function (req, res){
 })
 app.use('/v1', router);
 app.get('/', function (req, res) {
-    res.send('cookie stoler') 
+    res.send('cookiestoler app') 
 })
 
 app.listen(3001, function () {
