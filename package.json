@@ -1,0 +1,27 @@
+{
+  "name": "cookiestoler",
+  "version": "1.0.0",
+  "description": "demo app for XSS sample",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deckbsd/cookiestoler.git"
+  },
+  "keywords": [
+    "xss"
+  ],
+  "author": "deck_bsd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deckbsd/cookiestoler/issues"
+  },
+  "homepage": "https://github.com/deckbsd/cookiestoler#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "sqlite3": "^3.1.8"
+  }
+}
